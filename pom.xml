@@ -17,18 +17,6 @@
 	</distributionManagement>
 
 
-	<!-- <repositories> -->
-	<!-- <repository> -->
-	<!-- <id>hs_base_rep</id> -->
-	<!-- <name>hs_base_rep</name> -->
-	<!-- <url>http://dy.ayouke.com:8050/repository/hs_base_rep/</url> -->
-	<!-- <layout>default</layout> -->
-	<!-- <snapshots> -->
-	<!-- <enabled>true</enabled> -->
-	<!-- </snapshots> -->
-	<!-- </repository> -->
-	<!-- </repositories> -->
-
 	<name>base</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -43,5 +31,6 @@
 		<module>base.core</module>
 		<module>base.mybatis</module>
 		<module>base.web.all</module>
+		<module>honeycomb-cloud-starter</module>
 	</modules>
 </project>
