@@ -31,6 +31,8 @@
 		<module>base.core</module>
 		<module>base.mybatis</module>
 		<module>base.web.all</module>
+		<module>transaction-springcloud</module>
 		<module>honeycomb-cloud-starter</module>
+		<module>honeycomb-cloud-lcn-starter</module>
 	</modules>
 </project>

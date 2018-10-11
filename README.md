@@ -1,5 +1,5 @@
 # honeycomb  
-spring cloud client快速开发脚手架 
+spring cloud client快速开发脚手架 。qq群：241711273
 
 ### 脚手架包含
 * swagger
@@ -18,22 +18,27 @@ spring cloud client快速开发脚手架
 mvn clean install
 ```
 pom中添加引入
-```
-       
-		<dependency>
-			<groupId>honeycomb</groupId>
-			<artifactId>honeycomb-cloud-starter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-如果想在项目中使用分布式事务lcn。则直接使用下面引用
-```
-       
-		<dependency>
-			<groupId>honeycomb</groupId>
-			<artifactId>honeycomb-cloud-starter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 
+``` 
+<dependency>
+	<groupId>honeycomb</groupId>
+	<artifactId>honeycomb-cloud-starter</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+</dependency>
+```
+
+如果想在项目中使用分布式事务lcn。则直接使用下面引用
+
+``` 
+<dependency>
+	<groupId>honeycomb</groupId>
+	<artifactId>honeycomb-cloud-lcn-starter</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+</dependency>   
+
+并且需要配置tx.propertis文件，其中添加url。如下
+url=http://127.0.0.1:8898/tx/manager/
+```
 配置文件列子application.yml
 
 
