@@ -83,3 +83,5 @@ spring:
 mybatis:
   mapper-locations: classpath*:com/hs/plat/*/po/xml/entity/*.xml,classpath*:com/hs/plat/*/po/xml/*.xml 
 ```
+### 注意事项
+密码生成没采用md5，采用pbkdf2加密方式
